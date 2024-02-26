@@ -2,8 +2,7 @@
 
 <hr>
 
-![detectando cancer](https://github.com/Adriano1976/Breast-Cancer-Analysis-and-Predictions/assets/17755195/bcdbed5e-9788-4814-8953-cd37ba35d201)
-
+![image](https://github.com/Adriano1976/Breast-Cancer-Analysis-and-Predictions/assets/17755195/c91f1fe6-007f-492f-b988-9a3fb53126d1)
 
 Olá visitantes,
 
