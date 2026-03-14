@@ -28,8 +28,8 @@ A maioria dos tipos de câncer de mama é fácil de diagnosticar por análise mi
     * 0 = benigno (`não canceroso`) - ( B )
  
 * Também pode ser encontrado no Repositório de Aprendizado de Máquina UCI:
-* Fonte 1: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
-* Fonte 2: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+    * Fonte 1: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
+    * Fonte 2: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ### <font color=MediumVioletRed><strong>Importando a base de dados para Jupyter Notebook</strong></font>
 
