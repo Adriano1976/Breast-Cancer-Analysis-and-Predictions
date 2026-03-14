@@ -25,7 +25,10 @@ A maioria dos tipos de câncer de mama é fácil de diagnosticar por análise mi
 * As colunas 3-32 contêm 30 recursos de valor real que foram calculados a partir de imagens digitalizadas dos núcleos celulares, que podem ser usados para construir um modelo para prever se um tumor é benigno ou maligno.
 
     * 1 = maligno (`canceroso`) - ( M )
-    * 0 = benigno (`não canceroso`) - ( B )     
+    * 0 = benigno (`não canceroso`) - ( B )
+ 
+* Também pode ser encontrado no Repositório de Aprendizado de Máquina UCI:
+* Fonte: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
 #### <font color=MediumVioletRed><strong>Características Básicas do Tumor</strong></font>
 
