@@ -30,7 +30,7 @@ A maioria dos tipos de câncer de mama é fácil de diagnosticar por análise mi
 * Também pode ser encontrado no Repositório de Aprendizado de Máquina UCI:
 * Fonte: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
-#### <font color=MediumVioletRed><strong>Importando a base de dados para Jupyter Notebook</strong></font>
+### <font color=MediumVioletRed><strong>Importando a base de dados para Jupyter Notebook</strong></font>
 
 * Instale o pacote ucimlrepo:
 ```bash
