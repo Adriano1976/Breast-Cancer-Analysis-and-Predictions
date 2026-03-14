@@ -30,6 +30,32 @@ A maioria dos tipos de câncer de mama é fácil de diagnosticar por análise mi
 * Também pode ser encontrado no Repositório de Aprendizado de Máquina UCI:
 * Fonte: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
+#### <font color=MediumVioletRed><strong>Importando a base de dados para Jupyter Notebook</strong></font>
+
+* Instale o pacote ucimlrepo:
+```bash
+%!pip3 install -U ucimlrepo
+```
+
+* Importe o conjunto de dados para o seu código:
+
+```bash
+from ucimlrepo import fetch_ucirepo 
+  
+# fetch dataset 
+breast_cancer_wisconsin_diagnostic = fetch_ucirepo(id=17) 
+  
+# data (as pandas dataframes) 
+X = breast_cancer_wisconsin_diagnostic.data.features 
+y = breast_cancer_wisconsin_diagnostic.data.targets 
+  
+# metadata 
+print(breast_cancer_wisconsin_diagnostic.metadata) 
+  
+# variable information 
+print(breast_cancer_wisconsin_diagnostic.variables) 
+```
+
 #### <font color=MediumVioletRed><strong>Características Básicas do Tumor</strong></font>
 
 - `diagnosis`: Esta característica indica se o tumor é benigno (B) ou maligno (M). É o alvo que os modelos de aprendizado de máquina tentam prever.
@@ -62,9 +88,8 @@ Interpretar cada característica individualmente pode ser difícil, mas elas sã
 
 13 é o raio SE, o campo 23 é o pior raio.
 
-    * Todos os valores dos recursos são recodificados com quatro dígitos significativos.
-
-    * Valores de atributo ausentes: nenhum
+* Todos os valores dos recursos são recodificados com quatro dígitos significativos.
+* Valores de atributo ausentes: nenhum
 
 > Distribuição de classe: 357 `Benigno`, 212 `Maligno`
 
